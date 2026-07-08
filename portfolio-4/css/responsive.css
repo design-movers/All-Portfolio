@@ -1,0 +1,149 @@
+@media only screen and (max-width: 600px) {
+  .container-1 {
+    max-width: 570px;
+    margin: 0 auto;
+  }
+  /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= header =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+
+  .navbar-brand{
+  width: 50%;
+}
+
+  .logo img {
+    width: 50%;
+  }
+
+  /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= hero-section =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+  .bg-01 {
+    background-image: url(..//img/Main-banner2.jpg);
+    height: 50vh;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .Unlimited {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    width: 80%;
+  }
+
+  .Watch {
+    font-size: 17px;
+  }
+  .Ready {
+    font-size: 13px;
+  }
+
+  .btn {
+    margin-top: 15px;
+    padding: 5px 20px !important;
+    background-color: #d31b1b !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    transition: all 0.8s ease-in-out;
+    font-size: 17px !important;
+  }
+
+  .btn:hover {
+    margin-top: 15px;
+    padding: 5px 20px !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-weight: 600;
+  }
+
+  .text-padding {
+    padding-left: 2rem;
+    padding-top: 2rem;
+  }
+
+  /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= tv-section =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+
+  .c-bg-color-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background-image: linear-gradient(-49deg, #410e21 0%, #0c143b 100%);
+    padding: 0px 0px;
+    border-radius: 10px;
+    height: 55vh;
+    /* margin-left: 20px !important; */
+    /* margin-right: 20px !important; */
+
+  }
+
+  .c-bg-color-1 img {
+    width: 85%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .c-bg-color-1 img:hover {
+    width: 90%;
+  }
+
+  
+  .Watch-1 {
+    font-size: 14px;
+    padding-top: 10px;
+    width: 80%;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .c-bg-color-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background-image: linear-gradient(-49deg, #410e21 0%, #0c143b 100%);
+    padding: 0px 0px;
+    border-radius: 10px;
+    height: 55vh;
+    /* margin-left: 20px !important; */
+    /* margin-right: 20px !important; */
+  }
+
+  .c-bg-color-2 img {
+    width: 85%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .c-bg-color-2 img:hover {
+    width: 90%;
+  }
+
+  /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= dextop =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+  .dextop {
+    display: none;
+  }
+
+  .responsive-only {
+    display: block;
+  }
+
+  .c-item-img {
+    width: 40%;
+  }
+
+  .Set {
+    font-size: 15px;
+  }
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= footer =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.logo-1 {
+  width: 30%;
+}
